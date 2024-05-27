@@ -3,72 +3,27 @@
     margin: 0px;
 }
 
-nav{
-    border: 2px solid green;
-    /* margin: 0px 60px; */
-    padding: 6px 10px;
-}
-
-section{
-    border: 2px solid blue;
-    margin: 5px 60px;
-    /* padding: 0px 50px; */
+a{
+    margin:10px 10px;
 }
 
 header{
-    background-color: lightgrey;
-}
-
-.logo{
-    width: 70px;
-    height: 30px;
-    border: solid red 2px;
-    padding: 0px;
-    margin: 0px 
-}
-
-.round-figure{
-    border-radius: 50%;
-}
-
-#fotoCV{
-    height: 50px;
-    width: 50px;
-}
-
-#offers{
-    height: 300px;
-    width: 450px;
-    border-radius: 10px;
-    border: 2px red solid;
-    margin: 5px 250px;
-}
-
-#section-offer{
-    border: 2px red solid;
-    background-color: rgb(157, 159, 159);
-    border-radius: 10px;
-}
-
-div{
-    border: black solid 2px;
+    border: 2px solid green
 }
 
 
-.logos-redes{
-    height: 25px;
-    width: 25px;
+section{
+    border: 2px solid red;
+    margin: 5px 0px;
 }
 
-.flex-container {
-    display: flex;
-  }
-  .flex-item {
-    margin: 0px 10px; /* Opcional: para separar los elementos */
-  }
+.section-1{
+    background-color: RGB(170 187 204);
+    padding: 30px 40px;
+}
 
+footer{
+    margin: 10px 0px;
+    border: 2px blue solid;
+}
 
-/* .inline-block-element {
-    display: inline-block;
-    margin: 5px; /* Opcional: para separar los elementos */
-/* }  */
