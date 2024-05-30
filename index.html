@@ -4,31 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
+  
+    
+    <!-- Seccion header con la foto circular
+    algunos iconos circulares con links y algo de texto -->
     <header>
-        <img src="img/CV.png" alt="Foto del desarrollador">
-        <h2> Adrian Parodi</h2>
-        <p>Available for work</p>
-        <a href="https://www.linkedin.com/in/adrian-parodi/" target="_blank"> Follow me</a>
+
+        <!-- Foto del programador -->
+        <section class="header-left">
+            <img class="figura-circular foto-desarrollador" src="img/CV.png" alt="Foto del desarrollador">
+            <section class="header-center">
+                
+                    <h2> Adrian Parodi</h2> <!--ACA SE DEBE DESPLEGAR UNA IMAGEN... CAMBIAR-->
+                    
+                    <div>
+                        <a href="https://www.linkedin.com/in/adrian-parodi/"    target="_blank">Available for work </a>
+                        <a href="https://github.com/Adrieto">Follow</a>
+                    </div>
+            </section>
+        </section>
+
+
+
+        <section class="header-right">
         
-        <div>
+            <!-- <div> -->
             <a href="https://www.linkedin.com/in/adrian-parodi" target="_blank">
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart iconos figura-circular"></i>
             </a>
-        </div>
-        <div>
-            <a href="https://www.google.com" target="_blank">
-                <i class="fa-regular fa-heart"></i>
+            <!-- </div> -->
+            <!-- <div>
+                <button class="figura-circular">hola</button> -->
+            <a href="https://www.linkedin.com/in/adrian-parodi" target="_blank">
+                <i class="fa-regular fa-bookmark iconos figura-circular"></i>
             </a>
-        </div>
-        <a href="https://www.linkedin.com/in/adrian-parodi" target="_blank">
-            <button>Get in touch</button>
-        </a>
+            <!-- </div> -->
+            <a href="https://www.linkedin.com/in/adrian-parodi" target="_blank">
+                <button class="getintouch-button">Get in touch</button>
+            </a>
+        </section>
     </header>
+
+    
 
     <section class="section-1">
         <img src="./img/offers.JPG" alt="">
