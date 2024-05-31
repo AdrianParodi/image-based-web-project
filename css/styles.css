@@ -6,27 +6,31 @@ body{
     font-family:"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    margin-top: 110px;
     
 }
 
-a{
-    margin:10px 10px;
-}
+
 
 .getintouch-button{
-    padding: 10px 10px;
+    padding: 10px 15px;
     color: aliceblue;
     background-color: rgb(13,12,34);
-    border: solid 2px rgb(13,12,34);
+    border: none;
     border-radius: 20px;
-    font-size: 100%;
+    font-size: 13;
+    font-weight: 600;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid green; */
-    /* padding: 0% 10%; */
+    position: fixed;
+    top: 0px;
+    width: 100%; /* Ancho completo del header */
+    z-index: 1000; /* Z-index alto para que el header esté encima de otros elementos */
+    background-color: rgb(255,255,255);
+    margin-bottom: 10px;
 }
 
 .header-left{
@@ -39,7 +43,12 @@ header{
 .header-2{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: left;
+}
+
+.next-to-hero{
+    display: flex;
     align-items: center;
 }
 
@@ -48,6 +57,16 @@ header{
     justify-content: space-evenly;
     align-items: center; 
     margin-right: 10%;
+}
+
+.green-circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(77,170,87);
+    border: none;
+    border-radius: 50%;
+    margin: 0px 0px 0px 0px;
+
 }
 
 .figura-circular{
@@ -72,7 +91,7 @@ header{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgb(235,235,236);
+    border: 1px solid rgb(235,235,236);
     padding: 8px;
     margin: 10px 10px;
     width: 25px;
@@ -120,6 +139,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 footer{
@@ -133,22 +153,51 @@ div{
 
 .div-con-linea{
     display: flex;
+    width:100%;
+    
 }
 
 .line-left, .line-right {
     flex-grow: 1;
-    height: 0px;
-    color: rgb(231,231,233); /* Puedes cambiar el color si lo deseas */
+    height: 5px;
     align-self: center;
+    border: none;
+    border-top: 2px solid rgb(231,231,233)
 }
 
 .line-left {
-    margin-right: 10px; /* Ajusta el margen según sea necesario */
+    margin-right: 30px; /* Ajusta el margen según sea necesario */
     margin-left: 100px;
 }
 
 .line-right {
-    margin-left: 10px; /* Ajusta el margen según sea necesario */
+    margin-left: 30px; /* Ajusta el margen según sea necesario */
     margin-right: 100px;
 }
 
+h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    margin:10px 10px;
+}
+
+.green-link{
+    color: rgb(77,170,87);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.follow-link{
+    color: rgb(126,126,137);
+    font-size: 12px;
+    font-weight: 500;
+}
