@@ -29,7 +29,7 @@ header{
     width: 100%; /* Ancho completo del header */
     z-index: 1000; /* Z-index alto para que el header esté encima de otros elementos */
     background-color: rgb(255,255,255);
-    margin-bottom: 10px;
+    padding: 4px 0px;
     /* border: 2px solid green; */
 }
 
@@ -37,7 +37,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 10%;
+    margin-left: 11%;
 }
 
 .header-2{
@@ -58,9 +58,11 @@ header{
 
 .header-right{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center; 
-    margin-right: 10%;
+    margin-right: 12%;
+    /* border: blue solid; */
+    padding: 0px;
 }
 
 .green-circle {
@@ -134,7 +136,7 @@ section{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    margin: 20px 10% 10px 10%;
+    margin: 20px 12% 10px 11%;
     padding: 10% 5%;
     flex: 20 0;
 }
@@ -146,13 +148,17 @@ section{
 
 }
 
-/* div{
-    border: 2px black solid;
-} */
+div{
+    /* border: 2px black solid; */
+}
 
 .div-con-linea{
     display: flex;
     width:100%;
+}
+
+.spaced-div{
+    margin: 5px 12px;
 }
 
 .line-left, .line-right {
@@ -246,7 +252,6 @@ h3{
 
 a{
     text-decoration: none;
-    margin:10px 10px;
 }
 
 .green-link{
