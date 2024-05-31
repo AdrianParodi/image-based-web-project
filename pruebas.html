@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Centrado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Estilo para centrar todo el contenido del cuerpo */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Estilo opcional para el contenedor principal */
+        .main-container {
+            text-align: center; /* Centra el texto dentro del contenedor principal */
+        }
+        /* Estilos para los iconos y sus contenedores */
+        .circle-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px; /* Tamaño fijo del círculo */
+            height: 100px; /* Tamaño fijo del círculo */
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            margin: 10px; /* Espacio entre los círculos */
+        }
+        .circle-container i {
+            font-size: 48px; /* Ajusta el tamaño del icono */
+        }
+        /* Estilos específicos para cada icono */
+        .info-icon {
+            color: blue; /* Color del icono de información */
+        }
+        .check-icon {
+            color: green; /* Color del icono de check */
+        }
+        .exclamation-icon {
+            color: red; /* Color del icono de exclamación */
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="circle-container">
+            <i class="fas fa-info-circle info-icon"></i>
+        </div>
+        <div class="circle-container">
+            <i class="fas fa-check-circle check-icon"></i>
+        </div>
+        <div class="circle-container">
+            <i class="fas fa-exclamation-circle exclamation-icon"></i>
+        </div>
+    </div>
+</body>
+</html>
