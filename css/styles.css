@@ -30,6 +30,7 @@ header{
     z-index: 1000; /* Z-index alto para que el header esté encima de otros elementos */
     background-color: rgb(255,255,255);
     margin-bottom: 10px;
+    /* border: 2px solid green; */
 }
 
 .header-left{
@@ -42,13 +43,17 @@ header{
 .header-2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
+    justify-content: left;
+    align-items:start;
+    height: 40px;
+    margin-left: 12px;
 }
 
 .next-to-hero{
     display: flex;
     align-items: center;
+    height: 15px;
+    margin-top: 5px;
 }
 
 .header-right{
@@ -59,8 +64,8 @@ header{
 }
 
 .green-circle {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: rgb(77,170,87);
     border: none;
     border-radius: 50%;
@@ -113,7 +118,7 @@ header{
 }
 
 section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 5px 0px;
 }
 
@@ -141,19 +146,13 @@ section{
 
 }
 
-footer{
-    margin: 10px 0px;
-    border: 2px blue solid;
-}
-
-div{
+/* div{
     border: 2px black solid;
-}
+} */
 
 .div-con-linea{
     display: flex;
     width:100%;
-    
 }
 
 .line-left, .line-right {
@@ -174,6 +173,59 @@ div{
     margin-right: 100px;
 }
 
+
+/* Sección de Proyectos */
+.proyecto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contenido-proyecto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10% 10px 10%;
+}
+
+.proyect-img{
+    border-radius: 10px;
+}
+
+
+/* SECCION FOOTER */
+footer{
+    display: flex;
+    margin: 40px 0px;
+    /* border: 2px blue solid; */
+    padding: 20px 580px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor-cuadrado{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(184,184,190);
+    border: 2px solid rgb(184,184,190);
+    border-bottom: 6px solid rgb(184,184,190);
+    padding: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+}
+
+.like{
+    color: rgb(111,109,165);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+/* AJUSTES GENERALES */
+
 h1{
     font-size: 20px;
     font-weight: 500;
@@ -182,6 +234,14 @@ h1{
 h2{
     font-size: 14px;
     font-weight: 600;
+    line-height: 10px;
+    margin: 4px 0px 4px 0px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 a{
@@ -199,4 +259,10 @@ a{
     color: rgb(126,126,137);
     font-size: 12px;
     font-weight: 500;
+}
+
+.view-profile-link{
+    color: rgb(61,61,78);
+    font-size: 14px;
+    font-weight: 400;
 }
